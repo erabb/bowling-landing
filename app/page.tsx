@@ -40,15 +40,17 @@ export default function LandingPage() {
               <p className="mt-6 text-lg text-gray-600">Run your next tournament online with ease.</p>
             </div>
 
-            <div className="relative mx-auto" style={{ maxWidth: "600px" }}>
-              <div className="rounded-xl bg-white p-2 shadow-2xl">
-                <Image
-                  src="https://bowling-champs.vercel.app/_next/image?url=https%3A%2F%2Ffnjjtlfjqbumqcmnlnpz.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Ftournament-images%2F%2Fdashboard3.png&w=1200&q=75"
-                  width={400}
-                  height={400}
-                  alt="Bowling tournament dashboard"
-                  className="w-full mx-auto"
-                />
+            <div className="relative mx-auto" style={{ maxWidth: "1000px" }}>
+              <div className="">
+                <div className="relative rounded-xl bg-white p-2 shadow-2xl" style={{ marginBottom: "-35%" }}>
+                  <Image
+                    src="https://fnjjtlfjqbumqcmnlnpz.supabase.co/storage/v1/object/public/tournament-images//dashboard5.png"
+                    width={1000}
+                    height={1000}
+                    alt="Bowling tournament dashboard"
+                    className="w-full mx-auto"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -133,14 +135,14 @@ export default function LandingPage() {
         </section>
 
         {/* Product Section 1 */}
-        <section id="product" className="py-20">
+        <section id="product" className="py-10">
           <div className="container mx-auto px-4 md:px-6">
             <div className="text-center mb-8">
               <h2 className="text-3xl font-bold tracking-tight text-gray-900">Product</h2>
               <p className="mt-2 text-lg text-gray-600">Discover our advanced tournament features.</p>
             </div>
 
-            <div className="max-w-5xl mx-auto px-8 md:px-16 lg:px-24">
+            <div className="max-w-5xl mx-auto px-8 md:px-16 lg:px-8">
               <div className="grid gap-16 md:grid-cols-2 items-center py-12">
                 <div className="space-y-6 max-w-xs mx-auto md:mx-0">
                   <h3 className="text-3xl font-bold tracking-tight text-gray-900">Create a tournament in minutes</h3>
@@ -148,9 +150,15 @@ export default function LandingPage() {
                     Set up your tournament with customizable formats, entry fees, and share with your bowlers.
                   </p>
                 </div>
-                <div className="relative max-w-xs mx-auto md:mx-0">
-                  <div className="bg-white rounded-xl shadow-xl relative z-10">
-                    <Image src="https://bowling-champs.vercel.app/_next/image?url=https%3A%2F%2Ffnjjtlfjqbumqcmnlnpz.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Ftournament-images%2F%2Ftournament-detail4.png&w=640&q=75" alt="Tournament Setup" width={400} height={400} className="w-full h-full object-cover" />
+                <div className="relative mx-auto md:mx-0">
+                  <div className="bg-white rounded-xl shadow-xl">
+                    <Image 
+                      src="https://fnjjtlfjqbumqcmnlnpz.supabase.co/storage/v1/object/public/tournament-images//tournament-detail.png" 
+                      alt="Tournament Setup" 
+                      width={800} 
+                      height={800} 
+                      className="w-full h-auto"
+                    />
                   </div>
                 </div>
               </div>
@@ -161,12 +169,20 @@ export default function LandingPage() {
         {/* Product Section 2 */}
         <section className="py-20">
           <div className="container mx-auto px-4 md:px-6">
-            <div className="max-w-5xl mx-auto px-8 md:px-16 lg:px-24">
+            <div className="max-w-5xl mx-auto px-8 md:px-16 lg:px-8">
               <div className="grid gap-16 md:grid-cols-2 items-center py-12">
-                <div className="relative order-2 md:order-1 max-w-xs mx-auto md:mx-0 bg-white rounded-xl shadow-xl relative z-10">
-                  <Image src="https://bowling-champs.vercel.app/_next/image?url=https%3A%2F%2Ffnjjtlfjqbumqcmnlnpz.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Ftournament-images%2F%2Ftournament-results.png&w=640&q=75" alt="Tournament Setup" width={400} height={400} className="w-full h-full object-cover" />
+                <div className="relative mx-auto md:mx-0 order-2 md:order-1">
+                  <div className="bg-white rounded-xl shadow-xl">
+                    <Image 
+                      src="https://bowling-champs.vercel.app/_next/image?url=https%3A%2F%2Ffnjjtlfjqbumqcmnlnpz.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Ftournament-images%2F%2Ftournament-results.png&w=640&q=75" 
+                      alt="Tournament Setup" 
+                      width={800} 
+                      height={800} 
+                      className="w-full h-auto"
+                    />
+                  </div>
                 </div>
-                <div className="space-y-6 order-1 md:order-2 max-w-xs mx-auto md:mx-0">
+                <div className="space-y-6 max-w-xs mx-auto md:mx-0 order-1 md:order-2">
                   <h3 className="text-3xl font-bold tracking-tight text-gray-900">Real-time score tracking</h3>
                   <p className="text-lg text-gray-600">
                     Bowlers enter their scores into the platform at the end of each game, saving you time and effort.
@@ -178,19 +194,25 @@ export default function LandingPage() {
         </section>
         
         {/* Product Section 3 */}
-        <section id="product" className="py-20">
+        <section className="py-10">
           <div className="container mx-auto px-4 md:px-6">
-            <div className="max-w-5xl mx-auto px-8 md:px-16 lg:px-24">
+            <div className="max-w-5xl mx-auto px-8 md:px-16 lg:px-8">
               <div className="grid gap-16 md:grid-cols-2 items-center py-12">
                 <div className="space-y-6 max-w-xs mx-auto md:mx-0">
-                  <h3 className="text-3xl font-bold tracking-tight text-gray-900">Instant payouts to bowling directors.</h3>
+                  <h3 className="text-3xl font-bold tracking-tight text-gray-900">Instant payouts to bowling directors</h3>
                   <p className="text-lg text-gray-600">
                     Tournament funds are automatically sent to your account, ensuring quick payouts.
                   </p>
                 </div>
-                <div className="relative max-w-xs mx-auto md:mx-0">
-                  <div className="bg-white rounded-xl shadow-xl relative z-10">
-                    <Image src="https://bowling-champs.vercel.app/_next/image?url=https%3A%2F%2Ffnjjtlfjqbumqcmnlnpz.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Ftournament-images%2F%2Fearnings.png&w=640&q=75" alt="Tournament Setup" width={400} height={400} className="w-full h-full object-cover" />
+                <div className="relative mx-auto md:mx-0">
+                  <div className="bg-white rounded-xl shadow-xl">
+                    <Image 
+                      src="https://bowling-champs.vercel.app/_next/image?url=https%3A%2F%2Ffnjjtlfjqbumqcmnlnpz.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Ftournament-images%2F%2Fearnings.png&w=640&q=75" 
+                      alt="Tournament Setup" 
+                      width={800} 
+                      height={800} 
+                      className="w-full h-auto"
+                    />
                   </div>
                 </div>
               </div>
