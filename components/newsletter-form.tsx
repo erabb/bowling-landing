@@ -20,7 +20,10 @@ export default function NewsletterForm() {
       const res = await fetch('/api/subscribe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, wantsDemo }),
+        body: JSON.stringify({ 
+          email, 
+          demo: wantsDemo 
+        }),
       })
 
       if (res.ok) {
