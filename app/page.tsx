@@ -36,7 +36,7 @@ export default function LandingPage() {
           <div className="container mx-auto px-4 md:px-6 relative z-10">
             <div className="mx-auto max-w-3xl text-center mb-12">
               <h1 className="text-4xl font-bold tracking-tight sm:text-4xl md:text-[3.25rem] md:leading-[1.15] text-gray-900">
-                Theee modern way to run bowling tournaments
+                The modern way to run bowling tournaments
               </h1>
               <p className="mt-6 text-lg text-gray-600">Run your next tournament online with ease.</p>
             </div>
